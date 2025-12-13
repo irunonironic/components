@@ -48,13 +48,12 @@ export default function Button2() {
           hover:shadow-[3px_3px_0_0_#000]
           hover:translate-x-[3px] hover:translate-y-[3px]
           active:shadow-none active:translate-x-[6px] active:translate-y-[6px]
-          transition-all
+          transition-all select-none
         "
       >
         say meow
       </button>
 
-      {/* Meow pop-ups */}
       {meows.map((meow) => (
         <span
           key={meow.id}
