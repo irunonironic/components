@@ -1,10 +1,10 @@
 import React from 'react'
 //import Button from './Components/Button'
-import Ask from './Components/Ask' 
+import Button2 from './Components/Button2'
 const page = () => {
   return (
     <div>
-      <Ask />
+      <Button2 />
     </div>
   )
 }
